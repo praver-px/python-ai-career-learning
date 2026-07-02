@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+secrets.*
+*.key
+*.pem
+cookies.*
+tokens.*
+
+# Data
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.csv
+*.jsonl
+data/
+downloads/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
