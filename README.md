@@ -35,11 +35,12 @@ Python 工程基础
 ## 推荐阅读顺序
 
 1. `学习总计划.md`
-2. `market-research/岗位能力矩阵.md`
-3. `weekly/20周学习计划.md`
-4. `projects/项目路线.md`
-5. `resume/简历与投递策略.md`
-6. `prompts/AI学习提示词库.md`
+2. `详细学习资源与周计划.md`
+3. `market-research/岗位能力矩阵.md`
+4. `weekly/20周学习计划.md`
+5. `projects/项目路线.md`
+6. `resume/简历与投递策略.md`
+7. `prompts/AI学习提示词库.md`
 
 ## 版本管理
 
@@ -59,4 +60,3 @@ git push -u origin main
 ```
 
 注意：不要提交 `.env`、API key、Cookie、公司代码、内部文档和隐私数据。
-
