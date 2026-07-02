@@ -39,11 +39,12 @@ Python 工程基础
 3. `实战反爬与市场路线.md`
 4. `轮子复用与源码阅读规范.md`
 5. `AI应用学习路线.md`
-6. `market-research/岗位能力矩阵.md`
-7. `weekly/20周学习计划.md`
-8. `projects/项目路线.md`
-9. `resume/简历与投递策略.md`
-10. `prompts/AI学习提示词库.md`
+6. `weekly/全周期学习资料索引.md`
+7. `market-research/岗位能力矩阵.md`
+8. `weekly/20周学习计划.md`
+9. `projects/项目路线.md`
+10. `resume/简历与投递策略.md`
+11. `prompts/AI学习提示词库.md`
 
 ## 版本管理
 
