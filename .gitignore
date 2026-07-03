@@ -14,6 +14,8 @@ secrets.*
 *.pem
 cookies.*
 tokens.*
+config/codex-proxy-profiles.local.json
+config/*.local.toml
 
 # Data
 *.db
@@ -32,4 +34,3 @@ downloads/
 # OS
 Thumbs.db
 .DS_Store
-
