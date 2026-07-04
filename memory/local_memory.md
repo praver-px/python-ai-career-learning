@@ -43,6 +43,17 @@
 - 用户机器是 Windows。
 - Clash 不要随意关闭，之前网络修复时用户明确要求保留 Clash。
 - GitHub 推送如果直连失败，优先检查 Git 是否走 Clash 代理。
+- Codex 代理 API 切换脚本：
+  - `scripts/cc-switch-codex-proxy.ps1`
+  - 本地私密配置：`config/codex-proxy-profiles.local.json`
+  - 示例配置：`config/codex-proxy-profiles.example.json`
+- 已添加 DeepSeek profile：
+  - profile 名称：`deepseek`
+  - model：`deepseek-v4-pro`
+  - OpenAI 兼容 base URL：`https://api.deepseek.com`
+  - key 位置暂时留空，使用前填入 local 配置或 `%USERPROFILE%\.codex\.env`
+- 切换后让 Codex 使用本地记忆的提示词已保存到：
+  - `prompts/继续学习总提示词.md`
 - Claude Code 曾确认安装版本为 `2.1.158`。
 - Claude Code 已设置 `CLAUDE_CODE_ATTRIBUTION_HEADER=0`，用于避免第三方 Anthropic 兼容代理缓存被动态 attribution header 干扰。
 - `.claude/settings.json` 和 `.codex/config.toml` 中可能存在真实 API token；后续任何脚本、文档和提交都不要包含真实密钥。
@@ -82,4 +93,3 @@
 为什么这个手写版本不直接用于生产
 我还不懂什么
 ```
-

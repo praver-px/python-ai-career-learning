@@ -58,6 +58,12 @@ config/codex-proxy-profiles.local.json
 .\scripts\cc-switch-codex-proxy.ps1 apply -Profile my-proxy
 ```
 
+切换到 DeepSeek：
+
+```powershell
+.\scripts\cc-switch-codex-proxy.ps1 apply -Profile deepseek
+```
+
 5. 取消脚本管理的代理配置：
 
 ```powershell
@@ -67,7 +73,7 @@ config/codex-proxy-profiles.local.json
 ## 说明
 
 - Codex 官方文档建议：如果只是让内置 OpenAI provider 指向代理、路由或数据驻留项目，使用 `openai_base_url`。
+- DeepSeek OpenAI 兼容 API 当前 base URL 是 `https://api.deepseek.com`；示例配置默认使用 `deepseek-v4-pro`。
 - 修改 `~/.codex/config.toml` 或 `~/.codex/.env` 后，需要重启 Codex Desktop 或 VS Code 扩展。
 - 脚本会自动给 `config.toml` 创建备份。
 - 如果不想把 key 写到 local profile，可以留空 `api_key`，然后手动编辑 `%USERPROFILE%\.codex\.env`。
-
